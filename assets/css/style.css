@@ -2,13 +2,11 @@ body {
 	background-image: url("crystal-background-image.jpg");
         background-repeat:no-repeat;
        background-size:cover;
-       background-image: linear-gradient(blue);
-       
-       
+         
 } 
 
-h1 {
-    color: blue;
+#heading{
+    color: white;
     font-family: 'Dancing Script', cursive;
     text-align: center;
     font-size: 100%;
@@ -16,32 +14,56 @@ h1 {
 }
 
 
-.black-crystal{
+#black-crystal {
     width:300px;
     height:300px;
     float: left;
+    border-radius: 100% 100% 100% 100%;
+    padding: 10px;
 }
 
-.blue-crystal{
+#blue-crystal{
     width:300px;
     height:300px;
     align-content: center;
+    border-radius: 100% 100% 100% 100%;
+    padding: 10px;
+
 }
 
-.purple-crystal{
+#purple-crystal{
     width:300px;
     height:300px;
     align-content: space-around; 
+    border-radius: 100% 100% 100% 100%;
+    padding: 10px;
+
     
 }
 
-.red-crystal{
+#red-crystal{
     width:300px;
     height:300px;
+    border-radius: 100% 100% 100% 100%;
+    padding: 10px;
+
 }
 
 #text{
     font-family: 'Dancing Script', cursive;
     font-size:40px;
-    color:white;
+    color: white;
+}
+
+#crazy-cat{
+    border-radius: 100% 100% 100% 100%;
+}
+
+#crystal-cat{
+    border-radius: 200% 200% 200% 200%;
+    position: absolute;
+    right: 5px;
+    padding-left: 2px;
+    
+
 }
